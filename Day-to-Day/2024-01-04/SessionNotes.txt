@@ -1,0 +1,16 @@
+Note: HTML never decides position of element depending on the type of element.
+
+Tags:
+<header></header>   - We should use to display our menu bar
+<footer></footer>   - We should use to display page copyright and other links.
+<span></span>       - span doesn't have its own meaning. we use it to style some special text in p or div tag.
+<table></table>     - table is used to display any  data which is present in tabular format which is rows & columns.
+<thead></thead>     - It represents the block of rows that consist of the column labels (headers) for the parent table element.
+<tbody></tbody>     - It represents a block of rows that consist of a body of data for the parent table element.
+<tr></tr>           - It represents row in table tag.
+<th></th>           - It represents a header cell in a table.
+<td></td>           - It represents a data cell in a table.
+
+
+# table attributes:
+border: 1px solid blue

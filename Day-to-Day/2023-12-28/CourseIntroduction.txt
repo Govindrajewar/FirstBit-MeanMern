@@ -1,0 +1,28 @@
+FullStack = FrontEnd + BackEnd
+FrontEnd => HTML, CSS, JavaScript, Angular, React
+BackEnd  => Java, Spring, Node.js, Express.js, MongoDB, Python, Django
+
+
+# Web Development Basics:
+HTML
+CSS
+JavaScript
+Bootstrap
+JQuery
+
+
+# MEAN/MERN Stack
+Angular     -> JS based FrontEnd Framework
+Node.js     -> JS Runtime Environment (Used in BackEnd)
+Express     -> JS based Web Application Framework
+MongoDB     -> NoSQL Database
+React       -> JS FrontEnd Library
+
+
+# Projects:
+MEAN        -> TypeScript
+MERN        -> JavaScript
+
+
+# Tools Required:
+- VS Code (Live Server Extension by Ritwick Dey)

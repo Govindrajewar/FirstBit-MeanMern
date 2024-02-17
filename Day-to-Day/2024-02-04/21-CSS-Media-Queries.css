@@ -1,0 +1,29 @@
+@media screen and (min-width: 500px) {
+    .box {
+        background-color: aqua;
+        color: blue;
+    }
+  }
+
+
+h1{
+    color: red;
+}
+
+div{
+    background-color: coral;
+    height: 50px;
+    border: 1px solid blue;
+}
+
+
+/* media query to apply CSS rules accordingly */
+/* @media screen and (max-width:400px) {
+
+    div{
+        background-color: turquoise;
+    }
+
+} */
+
+

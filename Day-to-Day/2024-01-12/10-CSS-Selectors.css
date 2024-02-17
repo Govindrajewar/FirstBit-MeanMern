@@ -1,0 +1,27 @@
+/* class selector: Specify class of the element */
+.paragraph{
+    color: purple;
+}
+
+
+/* element Selector: Specify Name of the element */
+h1 {
+    background-color: yellow;
+    color: rgb(240, 232, 240);
+}
+
+/* id Selector: Specify id of the element */
+#p2 {
+    background-color: brown;
+}
+/*
+.paragraph{
+    color: purple;
+} */
+
+
+
+/* user defined selector */
+p3{
+    font-style: italic;
+}

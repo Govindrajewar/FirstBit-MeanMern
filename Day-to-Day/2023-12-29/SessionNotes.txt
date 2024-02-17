@@ -1,0 +1,34 @@
+HTML Link : https://developer.mozilla.org/en-US/docs/Web/HTML
+VS Code Extension Link : https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+
+
+HTTP    - It is not secured site
+HTTPS   - It is secured site
+
+
+# Client-Server Architecture
+
+Client                       Server
+ ___________                 ___________
+|           |     HTTP      |           |
+|           |    Request    |           |
+|           |   -------->   |           |
+|           |               |           |
+|           |               |           |
+|           |     HTTP      |           |
+|           |    Response   |           |
+|           |   <--------   |           |
+|___________|               |___________|
+
+
+HTML (HyperText Markup Language)    - Structure of the Web Page
+CSS  (Cascading StyleSheet)         - Styling of Web Page
+JS   (JavaScript)                   - Interactivity in Web Page
+
+
+HTML is tag based language.(Markup means Tags)
+eg.,<body>This is demo</body>
+    <body>   - Start Tag
+    Content  - This is demo
+    </body>  - End Tag
+

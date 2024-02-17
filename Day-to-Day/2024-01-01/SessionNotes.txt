@@ -1,0 +1,33 @@
+# This is how, we can add comment in HTML Page
+<!--This is my Second HTML page-->
+
+
+
+# In HTML file, type ! + hit Enter
+Output:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+
+# In HTML file, type !!! + hit Enter
+Output:
+<!DOCTYPE html>
+
+
+# Header Tag: We have 6 Header Tags in HTML
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>

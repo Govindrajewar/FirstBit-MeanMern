@@ -1,0 +1,37 @@
+# List
+Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li
+
+ol  - Ordered List
+    <ol>
+        <li>Notebook</li>
+        <li>Pencil</li>
+    </ol>
+
+ul  - Unordered List
+    <ul style="list-style-type: square;">
+        <li>Apple</li>
+        <li>Mango</li>
+    </ul>
+
+
+# select : The select element represents a control for selecting amongst a set of options.
+# option: The option element represents an option in a select element or as part of a list of suggestions in a datalist element.
+
+<select name="favPlayer" id="favPlayerid">
+    <option value="">Select your player</option>
+    <option value="VK">Virat</option>
+    <option value="RS">Rohit</option>
+</select>
+
+Note: here Virat or Rohit is text shown to the user as display text & VK or RS is value we send to backend.
+
+
+# Datalist : The datalist element represents a set of option elements that represent predefined options for other controls. In the rendering, the datalist element represents nothing and it, along with its children, should be hidden.
+
+eg.,
+<input type="text" list="mydatalist" name="sponsors" id="" placeholder="Select sponsors">
+    <datalist id="mydatalist">
+        <option value="Tata">Tata</option>
+        <option value="Dream11">Dream11</option>
+        <option value="Vivo">Vivo</option>
+    </datalist>

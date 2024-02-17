@@ -1,0 +1,4 @@
+# Border:
+Refer: https://developer.mozilla.org/en-US/docs/Web/CSS/border
+
+- We can set border to an element.

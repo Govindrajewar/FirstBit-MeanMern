@@ -1,0 +1,21 @@
+/* Option 1: */
+p{
+    /* by default, background-color: white */
+    background-color: red;
+
+    background-image: url(../CSS/ratangad_1.jpg);
+
+    /* by default, background-repeat: repeat; */
+    background-repeat:no-repeat;
+    /* by default,  background-position: left top; */
+    background-position: right;
+    /* by default, background-attachment:scroll; */
+    background-attachment:fixed ;
+
+}
+
+
+/* Option 2: Using Shorthand - background property*/
+/* p{
+    background: violet url(../CSS/ratangad_1.jpg) no-repeat left top fixed;
+} */

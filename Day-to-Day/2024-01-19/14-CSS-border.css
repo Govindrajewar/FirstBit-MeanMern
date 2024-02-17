@@ -1,0 +1,43 @@
+p{
+/*  border: width style  color */
+    border: 5px   solid  red;
+    border-radius: 5px;
+
+    /* Option1: */
+
+    /* Border-Style */
+    /* border-top-style: solid;
+    border-right-style: dashed;
+    border-bottom-style: dotted;
+    border-left-style: double; */
+
+    /* Border-Width */
+    /* border-top-width: 40px;
+    border-right-width: 30px;
+    border-bottom-width: 20px;
+    border-left-width: 10px; */
+
+    /* Border-color */
+    /* border-top-color: blue;
+    border-right-color: purple;
+    border-bottom-color: pink;
+    border-left-color: orange; */
+
+
+    /* Option 2: (Shorthand) */
+    /* border-style: solid dashed dotted double; */
+
+    /* border-width: 40px 30px 20px 10px; */
+
+    /* border-color: blue purple pink orange; */
+
+    /* border-radius: 10px 5px 20px 15px; */
+
+
+    /* padding: space inside the border */
+    padding: 20px;
+    /* margin: space outside the border */
+    margin-left: 0px;
+    margin: 20px 10px 30px 40px;
+
+}

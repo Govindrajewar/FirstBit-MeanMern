@@ -1,0 +1,33 @@
+h1{
+    color: red;
+}
+
+div{
+    height: 150px;
+    width: 250px;
+    margin: 5px;
+}
+
+.container{
+    /* height: 500px; */
+    height: 50vh;
+    background-color: black;
+    /* To show "div" in single row*/
+    display:flex;
+}
+
+
+
+.box1{
+    background-color: aqua;
+}
+
+
+.box2{
+    background-color: orangered;
+}
+
+
+.box3{
+    background-color: olivedrab;
+}

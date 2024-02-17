@@ -1,0 +1,21 @@
+Quick Quiz: is taken in last 15 minutes.
+
+CSS Selectors:
+- We use CSS Selector to select a HTML element.
+- Thus we can apply style in that particular elements.
+
+1) element Selector : Specify Name of the element (p, h1, div)
+p{
+    color: aqua;
+}
+
+2) id Selector :
+- Specify the "id" of an element(use # symbol before id)
+- "id" should not be repeated.
+#p2{
+    background-color: brown;
+}
+
+3) class Selector:
+- Specify the "class" of an element(use . symbol before class)
+- class can be repeated.

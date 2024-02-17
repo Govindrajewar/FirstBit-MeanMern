@@ -1,0 +1,7 @@
+Introduction to JavaScript:
+
+- JavaScript is Scripting Language
+- any browser can understand the JavaScript
+
+eg.,
+<button onclick="alert('JavaScript is Awesome')">Alert</button>

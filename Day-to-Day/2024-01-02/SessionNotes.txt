@@ -1,0 +1,52 @@
+# Developer Tools:
+> All the browsers provide a feature called "Developer Tools"
+> This feature provides a way for view, debug, troubleshoot any issues
+> To invoke the developer tools there are 2 options:
+    1) Go to browser menu on right side of browser, and select "More tools"-> "Developer tools"
+    2) Right click on particular of page or any where on the page and select "Inspect"
+
+
+# DOM (Document Object Model):
+
+                                document
+                                   |
+                                  html
+                                 /    \
+                                /      \
+                              head     body
+                               |      / |  \
+                             title  h1  p  div
+
+
+Command: document.getElementsByTagName("p")
+=>       It will return all elements which have tag as "p".
+
+var x = document.getElementsByTagName("p")[0].innerText;
+console.log(x);
+
+
+# HTML Attributes:
+> HTML elements can have properties.
+> These properties are called as "Attributes".
+
+
+# Attributes for <a> tag
+<a
+href="https://www.google.com"
+target="_blank">
+Visit Google Page
+</a>
+target = "values":
+// _blank   - open link in new tab
+// _self    - open link in same tab
+// _parent  -
+// _top     -
+
+
+# Attributes for <img> tag
+<img
+src="ratangad_1.jpg"
+alt="fort photo"
+height="200px"
+>
+Note: Either you specify 'height' or 'width'. If you specify both the image will stretch.

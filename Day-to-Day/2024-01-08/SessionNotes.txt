@@ -1,0 +1,25 @@
+# name & id attribute:
+
+- "id" attributes can be used for:
+    - Linking elements
+    - Scripting (JS)
+    - Styling (CSS)
+
+Command:
+<input
+type="text"
+name="username"             // to pass value to the BackEnd
+id="userid"                 // Uniquely identify the elements
+placeholder="Enter Name"
+required
+>
+placeholder     - is used to give hint to user
+required        - attribute is used to specify that the particular elements is compulsory
+
+
+# HTTP Request Methods:
+Command: <form action="" method="get"></form>
+
+method="get"        // default method
+method="post"
+

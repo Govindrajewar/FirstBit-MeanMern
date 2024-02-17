@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Introduction</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+
+    <script>
+        function displayConsole() {
+            console.log('Hi, Welcome to JavaScript');
+        }
+
+        function displayonPage() {
+            document.getElementById('para1').innerHTML = "Hi, Welcome to JavaScript";
+        }
+
+        function hideText() {
+            document.getElementById('para1').innerHTML = "";
+        }
+    </script>
+</head>
+
+<body>
+    <h1>JavaScript Introduction</h1>
+
+    <!-- alert -->
+    <button onclick="alert('Hi, Welcome to JavaScript')" class="btn btn-warning">Alert</button>
+
+    <!-- print on console -->
+    <button onclick="displayConsole();" class="btn btn-info">DisplayConsole</button>
+
+    <!-- display on body -->
+    <button onclick="displayonPage();" class="btn btn-success">DisplayonPage</button>
+
+    <!-- hide para on body -->
+    <button onclick="hideText();" class="btn btn-danger">Hide Text</button>
+    <p id="para1"></p>
+
+</body>
+
+</html>

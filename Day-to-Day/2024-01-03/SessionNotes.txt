@@ -1,0 +1,20 @@
+> DOM (Data Object Model) - In memory representation of our HTML page is known as DOM.
+
+> Home Page - The main page of the website/ web application.
+> It is known by various names-
+    1) Home Page
+    2) Default Page
+    3) Landing Page
+
+> Tags:
+<br>                - break the line
+<hr>                - add a horizontal line
+<b></b>             - display line in bold text
+<i></i>             - display line in italic text
+<u></u>             - display line as underline line
+<big></big>         - display text big than usual size
+<small></small>     -   display text small than usual size
+<div></div>         - It is acts as a container. It has no special meaning.
+<sub></sub>         - subscript
+<sup></sup>         - superscript
+<pre></pre>         - It will display the text with spaces

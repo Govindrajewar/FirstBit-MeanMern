@@ -1,0 +1,26 @@
+body{
+    background-color: aqua;
+    margin:0px;
+    padding: 0px;
+}
+
+
+h1{
+    color: red;
+    background-color: white;
+}
+
+
+.box1{
+    /* height: 50vh; */
+    /* height: fit-content;
+    width: 200vw; */
+    background-color: blueviolet;
+}
+
+
+.box2 {
+    background-color: pink;
+    /* height: 25vh;
+    width: 25vw; */
+}

@@ -1,0 +1,50 @@
+/* element Selector: Specify Name of the element */
+h1 {
+    background-color: yellow;
+    color: violet;
+}
+
+/* id Selector: Specify id of the element */
+#p2 {
+    background-color: brown;
+}
+
+/* class selector: Specify class of the element */
+
+.paragraph{
+    color: purple;
+    font-family: fantasy;
+
+}
+
+.one{
+    color: red;
+    font-family: cursive;
+}
+
+/* user defined selector */
+p3{
+    font-style: italic;
+}
+
+/* select all div's with class="paragraph" */
+div.paragraph{
+    background-color: aqua;
+}
+
+/* Group Selector: Specify multiple elements as a group */
+h2, h3 {
+    color:yellow;
+}
+
+/* Combinator Selector :
+div p   - select all "p" elements inside the div elements.
+*/
+div p{
+    color: orange;
+}
+
+/* Child elements: */
+body>div>p{
+    font-size: larger;
+}

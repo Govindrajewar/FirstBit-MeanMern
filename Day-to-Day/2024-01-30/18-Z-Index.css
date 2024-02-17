@@ -1,0 +1,34 @@
+h1{
+    color: red;
+}
+
+div{
+    height: 100px;
+    width: 200px;
+}
+
+.box1{
+    background-color: aquamarine;
+    position: relative;
+    z-index: 1;
+}
+
+.box2{
+    background-color: chartreuse;
+    position: absolute;
+    left: 140px;
+    top: 100px;
+    z-index: 5;
+}
+
+.box3{
+    background-color: slateblue;
+    position: absolute;
+    left: 70px;
+    top: 60px;
+    z-index: 3;
+}
+
+.box4{
+    background-color: violet;
+}

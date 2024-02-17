@@ -1,0 +1,21 @@
+h1{
+    color: brown;
+}
+
+#p3{
+    border: 1px solid red;
+    margin:20px;
+}
+
+#p2{
+    border: 1px solid black;
+    font-family: cursive;
+
+    /* vw - viewport width */
+    width: 50vw;            /* 50% of the viewport */
+    /* vh - viewport height */
+    /* height: 33vh;           33% of the viewport */
+
+    padding: 20px;
+    margin: 20px;
+}

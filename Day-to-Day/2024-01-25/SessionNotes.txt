@@ -1,0 +1,5 @@
+# Some Basics:
+- vh (viewport height)
+- Why scroll bar is getting added the browser
+
+Note: Our web application should NEVER EVER have a horizontal Scroll bar.

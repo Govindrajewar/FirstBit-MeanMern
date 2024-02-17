@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: pink;
+}
+
+div{
+    width: 50vw;
+    /* height: 20vh; */
+    /* height: 800px; */
+}
+
+
+.box1{
+    background-color: greenyellow;
+    /* position: fixed; */
+
+    /* for reference => position: fixed; */
+    /* height: 800px; */
+
+    height: 3000px;
+
+
+}
+
+.box2{
+    background-color: orange;
+
+    /* top, right,bottom, left will have no effect if position: static
+    position: static;
+    left: 20px;          */
+
+    /* position: relative; It will change position with its current position */
+    /* position: relative;
+    left: 20px;
+    top: 50px; */
+
+    /* position: fixed;
+    left:50px;
+    top: 50px; */
+
+    /* refer .box3 */
+    position: sticky;
+    top: 50px;
+    left: 50px;
+
+
+}
+
+.box3{
+    background-color: chocolate;
+
+    /* for reference => position: sticky; */
+    height: 3000px;
+
+}
+
+
+.box4{
+    background-color: aqua;
+    /* position: static; */
+    position: relative;
+}
+
+/* div5 is child of div4. so to position div5 with respect to its parent we must position div4 as position: anything but static   */
+.box5{
+    background-color: red;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    height: 500px;
+}

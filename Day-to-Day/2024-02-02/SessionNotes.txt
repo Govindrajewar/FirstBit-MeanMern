@@ -1,0 +1,5 @@
+CSS Grid:
+Refer: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns
+
+- A CSS grid allows us to create a layout on the basis of rows and columns.
+

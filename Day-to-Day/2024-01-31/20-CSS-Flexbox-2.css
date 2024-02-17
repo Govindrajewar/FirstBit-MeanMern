@@ -1,0 +1,66 @@
+h1{
+    color: red;
+}
+
+
+
+.container{
+    /* height:fit-content; */
+    /* width: 150vw; */
+    height: 50vh;
+    background-color: black;
+    /* To show "div" in single row*/
+    display:flex;
+    /* flex-direction: column; */
+    flex-direction: row;
+
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: center; */
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: space-evenly; */
+
+    /* align-items: center; */
+    /* align-items: start; */
+    /* align-items: end; */
+
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+
+
+    /* flex-wrap: wrap; move div in next line */
+    /* flex-wrap: wrap; */
+
+}
+
+div{
+    /* height: 150px; */
+    width: 250px;
+    margin: 5px;
+    height: 100px;
+}
+
+
+
+.box1{
+    /* align-self: flex-start; */
+    background-color: aqua;
+    order: 1;
+}
+
+
+.box2{
+    /* align-self: flex-end; */
+    background-color: orangered;
+    order: 0;
+}
+
+
+.box3{
+    background-color: olivedrab;
+    order: 2;
+
+    /* to change the size of  */
+    flex-grow: 1.5;
+}

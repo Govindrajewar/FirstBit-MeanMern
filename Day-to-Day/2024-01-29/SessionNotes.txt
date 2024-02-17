@@ -1,0 +1,24 @@
+# First 15 minutes, discussion about payment, admission & other instructions.
+
+# CSS Position Properties: default value = "static"
+Refer: https://developer.mozilla.org/en-US/docs/Web/CSS/position
+
+# position:static;
+- This is the default value.
+- The element is positioned according to the normal flow of the document.
+- The top, right, bottom, left, and z-index properties have no effect.
+
+
+# position:relative;
+- relative to its current position.
+- The element is positioned according to the normal flow of the document.
+- Offset relative to itself based on the values of top, right, bottom, and left
+
+# position: absolute;
+- position with reference to its ancestor (who has position set anything without "static")
+
+# position: fixed;
+- position with reference to viewport from first view.
+
+# position: sticky;
+- position with reference to viewport after its occurrence on viewport.

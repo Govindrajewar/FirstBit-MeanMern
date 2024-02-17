@@ -1,0 +1,39 @@
+# Class Selectors:
+- One class can be assigned to multiple elements.
+- One element can have multiple classes assigned to it.
+
+- here we assigned one class to two different elements (p & p3).
+    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam cupiditate totam iusto magni quo dignissimos sapiente qui libero, omnis laborum perferendis.
+    </p>
+
+    <p3 class="paragraph">
+        This is p3 for testing purpose
+    </p3>
+
+- here we have assigned two classes using space between them.
+    <div class="one paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+
+- The last property will apply on the element.
+- depending on the declaration of classes, the properties apply on the classes.
+
+Q: We want to apply a sty;e to the div having class as "one". This style should not get applied to the other elements.
+=>
+div.paragraph{
+    background-color: aqua;
+}
+
+
+> Group Selector:
+h2, h3 {
+    color:yellow;
+}
+
+> Combinator Selector:
+div p{
+    color: orange;
+}
+
+> Child Selector:
+body>div>p{
+    font-size: larger;
+}

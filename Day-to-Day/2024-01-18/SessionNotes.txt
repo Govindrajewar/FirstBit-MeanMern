@@ -1,0 +1,26 @@
+# Background:
+Refer : https://developer.mozilla.org/en-US/docs/Web/CSS/background
+
+p{
+    /* by default, background-color: white */
+    background-color: red;
+
+    background-image: url(../CSS/ratangad_1.jpg);
+
+    /* by default, background-repeat: repeat; */
+    background-repeat:no-repeat;
+    /* by default,  background-position: left top; */
+    background-position: right;
+    /* by default, background-attachment:scroll; */
+    background-attachment:fixed ;
+}
+
+
+# shorthand:
+Refer: https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties
+
+- A shorthand allows us to specify multiple values in a single property.
+
+p{
+    background: violet url(../CSS/ratangad_1.jpg) no-repeat left top fixed;
+}

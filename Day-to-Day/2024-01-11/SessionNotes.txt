@@ -1,0 +1,45 @@
+Refer: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+
+CSS - Cascading StyleSheet
+    - Allows us to apply style to various elements.
+    - There are may properties which can be used to set these style.
+    - To apply style to an elements directly, we use the "style" attribute.
+
+Command:
+<h1
+style="                         // attribute
+color: rgb(240, 25, 25);"       // property
+>
+Welcome to CSS
+</h1>
+
+
+- We can specify multiple properties for styling an element.
+eg.,<h2 style="background-color: beige; color:blueviolet;">CSS is Awesome</h2>
+
+
+# There are three ways to apply style to a element.
+1. Inline CSS:
+- We specify the style using "style" attribute
+    <!-- Inline CSS-->
+    <h1 style="color: violet;">This is h1</h1>
+
+2. Internal CSS:
+- We specify the style using <>style> element.
+- This is generally specify in head section.
+- The advantage is that this style gets applied to multiple element in same page(only if tags are same).
+
+    <!-- Internal CSS -->
+    <style>
+        P{
+            color: orange;
+        }
+    </style>
+
+3. External CSS:
+- We create a separate ".css" file,
+- This file contains styling.
+- we link this ".css" file to our ".html" file.
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="09-CSS-apply-styles.css">

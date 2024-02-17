@@ -1,0 +1,17 @@
+> First 25 minutes on below topic:
+# Levels of Learning:
+L1  - Learn all concepts of the technology
+L2  - Creation of Projects (apply concepts)
+L3  - Live Project (work in company)
+
+# CSS Specificity: The application of style will depends on the "Specificity"
+
+- inline > id > class > element
+
+
+# Universal Selector: It will apply to all elements
+
+* {
+    color:red;
+    background-color: black;
+}

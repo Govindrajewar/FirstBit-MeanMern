@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+    </head>
+    <body>
+        <form action="/userlogin" method="get">
+            <!--
+                input   - is tag
+                type    - is attribute (eg., text, number)
+
+                <label for="id of element"></label>
+            -->
+            <label for="studentnameid">Student Name:</label>
+            <input type="text" name="studentname" id="studentnameid" placeholder="Enter Student Name">
+                <br>
+            <label for="studentpasswordid">Student Password:</label>
+            <input type="password" name="studentpassword" id="studentpasswordid" placeholder="Enter Password" required>
+                <br>
+            <input type="submit" value="LogIn">
+        </form>
+
+
+    </body>
+</html>

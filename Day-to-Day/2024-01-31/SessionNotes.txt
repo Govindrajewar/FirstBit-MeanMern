@@ -1,0 +1,25 @@
+Note: Nothing in last 15min
+
+# Flexbox:
+
+# main axis vs cross axis:
+
+Command:
+display:flex;
+
+/* flexbox related properties*/
+
+> we can choose the direction of flex using:
+flex-direction: row;                -->
+flex-direction: row-reverse;        <--
+flex-direction: column;             ↓
+flex-direction: column-reverse;     ↑
+
+
+/* to manage the position of items */
+justify-content: space-around;
+justify-content: space-between;
+justify-content: space-evenly;
+justify-content: start;
+justify-content: center;
+justify-content: end;

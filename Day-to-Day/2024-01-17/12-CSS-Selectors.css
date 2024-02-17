@@ -1,0 +1,33 @@
+/* Universal Selector : It will apply to all elements*/
+
+* {
+    color:red;
+    background-color: black;
+}
+
+
+/* Pseudo class : which helps us
+:hover          -
+:link           -
+::first-line    -
+*/
+button:hover{
+    color: white;
+}
+
+a:link{
+    color: blue;
+}
+
+p::first-line{
+    color: white;
+
+}
+
+P::first-letter{
+    text-transform: uppercase;
+}
+
+h1::first-letter{
+    background-color: white;
+}

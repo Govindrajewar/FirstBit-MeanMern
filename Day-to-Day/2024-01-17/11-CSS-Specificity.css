@@ -1,0 +1,19 @@
+/*
+- The application of style will depends on the "Specificity"
+
+- inline | id | class | element
+*/
+
+h1{
+    color: blue;
+}
+
+
+.titleclass{
+    color: green;
+}
+
+
+#title{
+    color: white;
+}

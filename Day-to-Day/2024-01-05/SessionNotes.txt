@@ -1,0 +1,25 @@
+# A Quick Quiz is taken in last 15 minutes.
+
+Tags:
+<label>         - add label before input
+<input>         - Take input from user
+
+# Block Level Elements:
+    - Always starts on new line.
+    - It will consume whole width of the screen.
+    Tags: <div>, <p>, <h1-h6>, <hr>, etc.
+
+
+# Inline Level Elements:
+    - Always starts on the same line.
+    - It will consume only required width of the screen.
+    Tags: <a>, <b>, <i>, <u>, <span>, etc.
+
+
+# HTML Form:
+<label></label>     - is used to add label to the input
+<input>             - is used to take values from user. eg., text, number, password, color
+
+eg.,
+<label for="">Student Name :</label>
+<input type="text" name="" id="">
