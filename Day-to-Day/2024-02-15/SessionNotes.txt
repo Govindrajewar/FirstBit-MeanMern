@@ -1,0 +1,45 @@
+Refer: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
+
+JSON -> JavaScript Object Notation
+
+Note: If you have to decide which var declaration is most suited for your requirement, then use following sequence.
+1. const
+2. let
+3. var
+
+
+# We can declare variables in 3 ways:
+- let x = 10;
+- var y = 20;
+- const PI = 3.14;
+
+
+# Comments:
+// Single line comment
+
+/*
+ multiple line comment
+*/
+
+
+# Types of JS variables:
+
+> Primitive
+- number
+- string
+- boolean
+- undefined
+- null
+
+> Non-Primitive
+- object
+
+
+# Hoisting:
+Refer: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var#hoisting
+
+- let variables have block scope.
+- var variables are not block scope.
+
+- 'let' is recommended datatype, Use 'let' instead of 'var'.
+- when we use 'var' the declaration is hoisted.
