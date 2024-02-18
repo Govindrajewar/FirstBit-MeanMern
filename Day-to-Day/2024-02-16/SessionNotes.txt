@@ -1,0 +1,45 @@
+# Arithmetic Operators:
+
++
+-
+/
+*
+%
+
+# Comparison Operators:
+
+>
+<
+>=
+<=
+==
+!=
+
+# Logical Operators:
+- and (&&)
+- or  (||)
+- not (!)
+
+/**
+ * Logical AND: Truth Table
+ * Condition 1   &&   Condition 2  =   Result
+ *      T        &&       T        =       T
+ *      T        &&       F        =       F
+ *      F        &&       T        =       F
+ *      F        &&       F        =       F
+ */
+
+
+/**
+ * Logical OR: Truth Table
+ * Condition 1   ||   Condition 2  =   Result
+ *      T        ||       T        =       T
+ *      T        ||       F        =       T
+ *      F        ||       T        =       T
+ *      F        ||       F        =       F
+ */
+
+
+// Logical NOT (!) - Reverse Result
+console.log(!false);        // true
+console.log(!true);         // false

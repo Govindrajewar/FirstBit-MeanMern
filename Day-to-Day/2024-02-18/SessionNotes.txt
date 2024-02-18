@@ -1,0 +1,81 @@
+# Looping Statement:
+> for loop
+> while loop
+
+
+# Branching Statement:
+> if-else
+
+
+# JavaScript Arrays:
+- Collection of element which are stored in continuous memory location.
+eg.,
+let array = []
+let array = [10, 'Rohit', true]
+
+Assignment 1: Accept a number from user and print if it is odd number or an even number?
+
+Assignment 2: Read 5 numbers from the user, store them in the array. And find which of them is the maximum number?
+
+Practice : Explore various methods of arrays:
+- length    => returns array length
+eg.,
+array.length;
+
+
+- pop       => remove last index of array
+eg.,
+array.pop();
+
+
+- push      => append index at last of array
+eg.,
+array.push(num);
+array.push(num1, num2);
+
+
+- reverse   => reverse the array
+eg.,
+marks.reverse()
+
+- sort      => sort array in ascending order
+eg.,
+marks.sort()
+
+
+- slice     => return index from start index to last
+eg.,
+// return new array till last index.
+marks.slice(start-index)
+
+// return new array till end index which provided.
+marks.slice(start-index, end-index)
+
+
+- splice    => deletes indexes from original array.
+eg.,
+marks.splice(2,4)
+marks.splice(start-index,till-index)
+
+
+- forEach   => can access each element of the given array
+eg.,
+array.forEach( (x) => {
+    console.log(x);
+})
+
+
+- map       => can multiple the original array & store in new array.
+eg.,
+let newArr = marks.map(x => x*2)
+
+
+- concat    => can append numbers in array & store in new array.
+eg.,
+marks.concat(50)
+marks.concat(100,110,1120)
+
+
+- filter    => can compare the values & store in new array.
+eg.,
+const result = marks.filter((mark) => mark > 60);
