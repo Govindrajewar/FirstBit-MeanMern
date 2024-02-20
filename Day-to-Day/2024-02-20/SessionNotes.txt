@@ -1,0 +1,34 @@
+# JavaScript Strings:
+Refer: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+
+- String is sequence of characters.
+- String is one of commonly used datatype.
+- JavaScript allows 'Single Quotes' and "Double Quotes".
+- String provides us lot of methods.
+eg.,
+string.length;
+string.toUpperCase();
+string.toLowerCase();
+string.includes("__sub-string__");
+string.toLowerCase().includes("__while-searching-case-sensitive-text__");
+let words = string.split(" ");
+
+
+# Loops: loops are used to perform repetitive tasks.
+> while loop:
+syntax:
+        while(condition){
+            // body
+        }
+
+
+> do while loop:
+syntax:
+        do{
+            // body
+        } while(condition)
+
+
+# Assignment:
+1. Print all odds numbers from 1 to 25
+2. Accept a number from user and print its mathematical table
