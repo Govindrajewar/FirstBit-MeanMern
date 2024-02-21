@@ -1,0 +1,109 @@
+# Types of for loop:
+1. Standard for loop
+2. for in loop
+3. for of loop
+
+# Standard for loop:
+syntax:
+        for(let i = 1 ; i<= 5 ; i++){
+            console.log(i);
+        }
+
+
+# for-in loop: parse every index in the array
+syntax:
+        let array = [10, 20, 30, 40, 50];
+
+        for(let i in array){
+            console.log("index = ", i);
+            console.log("value of index = ", array[i]);
+        }
+
+
+# for-of loop: parse every element in the array
+syntax:
+        let msg = "welcome";
+
+        for(let e of msg){
+            console.log(e);
+        }
+
+
+# functions:
+- is collection of statement
+- a function performs a specific task.
+- functions allows us code reusability.
+
+# Types of functions:
+
+1. function without parameters:
+eg.,
+    function abc(){
+        console.log("abc function");
+    }
+
+    // function call:
+    abc();
+
+
+2. function which accepts parameters:
+eg.,
+    function add(x, y){
+        console.log("Addition = ", x+y);
+    }
+
+    // function call:
+    add(10, 20);
+
+
+3. function which accepts parameters & returns value:
+eg.,
+    function multiply(a, b){
+        return (a*b);
+    }
+
+    // function call:
+    let result = multiply(4,6);
+    console.log("multiplication = ", result);
+
+
+4. passing function as parameter to another function:
+eg.,
+    function process(){
+        console.log("Processing...");
+    }
+
+    function demo(fn){
+        console.log("Start Processing");
+        fn();
+        console.log("End Processing");
+    }
+
+    // function call:
+    demo(process);
+
+
+# Assignment:
+1. Accept 2 numbers from the user
+
+2. Accept a choice from user (1,2,3,4)
+
+3. If choice is 1,
+a. then call a function add()
+b. and pass the 2 numbers read in step 1
+c. It should print the addition
+
+4. If choice is 2,
+a. then call a function sub()
+b. and pass the 2 numbers read in step 1
+c. It should print the subtraction
+
+5. If choice is 3,
+a. then call a function mult()
+b. and pass the 2 numbers read in step 1
+c. It should print the multiplication
+
+6. If choice is 4,
+a. then call a function div()
+b. and pass the 2 numbers read in step 1
+c. It should print the division
