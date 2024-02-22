@@ -1,0 +1,47 @@
+# Related Files:
+> 34-javascript-functions-2.html
+> js/34-javascript-functions-2.js
+
+# Refer:
+1. https://www.w3schools.com/js/js_arrow_function.asp
+2. https://www.w3schools.com/js/js_callback.asp
+
+
+# Arrow function:
+syntax:
+let af1 = () => {
+    console.log("Arrow function");
+}
+
+// function call:
+af1();
+
+
+> A process in execution is called as Process.
+> A thread is the smallest unit of execution.
+> Javascript is single threaded language.
+    - Synchronous functions (single thread)
+    - Asynchronous functions
+
+
+# Callback function:
+- Callback functions are the functions which we do not call directly.
+- We pass the callback function to a function which we are going to actually call.
+- This function will then call our callback function, once its job is done.
+
+eg 1.,
+function demo(){
+    console.log("Processing Complete!");
+}
+
+// setTimeout() will call our Callback function demo() after 3 seconds.
+setTimeout(demo, 3000);
+console.log("Hello");
+
+
+eg 2.,
+setTimeout( () => {
+    console.log("Processing done!");
+},5000);
+
+console.log("Still Processing...");
