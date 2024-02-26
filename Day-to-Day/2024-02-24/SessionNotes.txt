@@ -1,0 +1,32 @@
+Related Files:
+35-javaScript-objects.html
+js/35-javaScript-objects.js
+
+
+# JavaScript Objects:
+- Object contains the following:
+    - Properties
+    - Methods
+
+# Objects & Classes:
+
+- An object represents a user defined entities:
+    eg., Student, Book, Employee etc.
+        let Book = {
+        title: "Atomic Habits",
+        author: "James Clear",
+        prices: 500,
+        }
+
+- We can create a simple object by assigning it with Properties & methods.
+- Note: functions present inside an object are called as "methods".
+- We can dynamically add Properties & methods to the object.
+eg., Book.publication = "Penguin Publications";
+
+- We can dynamically remove Properties & methods from an object.
+
+> Remove properties from the book object:
+eg., delete Book.prices;
+
+> Remove methods from the book object:
+eg., delete Book.getPrices;
