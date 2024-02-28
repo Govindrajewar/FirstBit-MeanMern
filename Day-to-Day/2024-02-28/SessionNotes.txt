@@ -1,0 +1,28 @@
+# TypeScript:
+
+Refer:
+https://www.typescriptlang.org/docs/
+https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
+
+
+- TypeScript is Scripting language.
+- It is based on JavaScript.
+
+    -------------------------------------------------
+    |                          TypeScript           |
+    |                                               |
+    |                                               |
+    |        -----------------                      |
+    |        |               |                      |
+    |        |   JavaScript  |                      |
+    |        |               |                      |
+    |        -----------------                      |
+    -------------------------------------------------
+
+- It is superset of JavaScript.
+- It provides 'strong typing' to JS.
+- Any valid JS code is valid TS code.
+- Extension of TypeScript file is '.ts'
+- After compilation the TS code generates JS code.
+- Browsers do not understand TS code.
+- It is provided by Microsoft.
