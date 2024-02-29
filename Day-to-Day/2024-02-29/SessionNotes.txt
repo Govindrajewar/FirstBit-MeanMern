@@ -1,0 +1,21 @@
+NPM - Node Package Manager
+
+# Install TypeScript:
+
+> TypeScript can be installed in 2 ways:
+
+1. Global Installation
+    - npm install -g typescript
+2. Local Installation
+    - npm install typescript
+
+> Now confirm the typeScript installation
+tsc --version
+
+Note: If you are not getting the version, then check is the path added in local environment or not. If the path is not available in the local environment then add it.
+eg., Path: C:\Users\Dell\AppData\Roaming\npm
+
+# Command to execute the TypeScript files:
+1. tsc index.ts      // Command converts the TS file to JS file.
+2. node index.js     // Command to execute JS file
+
