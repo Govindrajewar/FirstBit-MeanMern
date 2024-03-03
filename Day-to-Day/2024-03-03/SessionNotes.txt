@@ -1,0 +1,28 @@
+# Compilation Target version
+- The current TS compiler compiles the .ts file with es5 as the default target
+- We can change this to whichever version we want
+> Command: tsc --target es6 index1.ts
+
+
+# TypeScript Configuration:
+- We can create a ts configuration file which allows us to set different properties to the ts compiler
+- To create a configuration file, we use the  “-- init” option
+> Command: tsc --init
+
+* Note:
+- The configuration file is “tsconfig.json”
+- We can specify the source and destination folders in the tsconfig.json
+> Changes done in tsconfig.json file
+    1. "rootDir": "./src"           (path to get source files to compilation)
+    2. "outDir": "./dest"           (path to store output files after compilation)
+
+
+# Compilation of .ts file can be done in 2 ways
+    1. Individual Compilation
+        > Command: tsc index.ts
+    Note: When we perform individual compilation, then the “tsconfig.json” file is NOT used
+
+    2. Project Compilation
+        - We do not specify any individual file
+        > Command: tsc
+
