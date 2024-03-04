@@ -1,0 +1,27 @@
+# How to start compiler in start mode:
+- If we want that the compiler should compile our files automatically, then we should start the compile in the "watch" mode.
+> Command: tsc --watch / tsc -w
+
+
+# Data types in TypeScript:
+> Number:
+let num: number = 7;
+
+> String:
+let str:string = "hello world";
+
+> Boolean:
+let bool:boolean = true;
+
+
+# function with 'void' return type
+let func = (): void{
+    console.log("hello world");
+}
+
+
+# function with 'number' return type
+let sum = (a:number, b:number){
+    return a + b;
+}
+sum(10,20);

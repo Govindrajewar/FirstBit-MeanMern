@@ -1,4 +1,5 @@
 "use strict";
-let a1 = 11;
-let x = 65;
-console.log(a1);
+var a1 = 11;
+let b1 = 65;
+console.log("a1 = " + a1);
+console.log("b2 = " + b1);
