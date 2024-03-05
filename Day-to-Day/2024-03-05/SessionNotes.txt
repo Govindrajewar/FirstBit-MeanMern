@@ -1,0 +1,119 @@
+## User Defined Types:
+
+# Loops:
+> while loop:
+
+let count:number = 0;
+while(count < 10);{
+    if(count==5)
+        break;
+
+    console.log(count);
+    count++;
+}
+
+
+> for loop:
+
+for(let counter:number = 0 ; counter < 10 ; counter++){
+    if(count==5)
+        continue;
+
+    console.log(counter);
+}
+
+
+
+# Array:
+let array:number[] = [1,2,3,4,5];
+console.log(array);
+
+fot(let i:number=0 ; i<=array.length ; i++){
+    console.log( i " => " array[i]);
+}
+
+> forEach
+array.forEach((num)=>{
+    console.log( num );
+})
+
+
+
+# Tuple:
+let t: [number, string];
+t = [7, "Dhoni"];
+console.log(t);
+t = [10, 20];           // Error:
+
+
+
+# Object:
+type student = { name:string, city:string, jerseyNo:number};
+
+let s:student = {
+    name: "Raj",
+    city: "Pune",
+    jerseyNo:75
+}
+console.log(s);
+
+
+
+# Enum Type (Enumeration): by default, Values start by 0 and increment by 1.
+enum days {mon, tue, wed, thu, fri, sat, sun};
+let day1:days = days.mon;         // d1=0;
+
+enum colors {black, white, red, green, blue};
+let color1:colors = colors.red;     // color1=2
+colors.forEach((color){
+    console.log(color)
+})
+
+
+enum players { rohit=10, rahul, raj, ramu};
+let player:players = players.raj;     // player=2
+players.forEach((player){
+    console.log(player)
+})
+
+
+// Accessing enum values using the dot notation:
+console.log("Value of mon is "+days["mon"]);                   // Value of mon is 0
+
+
+# Union:
+let p: ( number | string) = "Welcome";
+console.log(p);
+console.log(typeof p);
+
+p = 18
+console.log(p);
+console.log(typeof p);
+
+p = true            // Error:
+
+
+# class:
+class Person{
+
+    // properties:
+    name:string;
+    age:number;
+    isRegistered:boolean;
+
+    // methods:
+    constructor(name:string,age:number,isRegistered:boolean){
+        this.name = name;
+        this.age = age;
+        this.isRegistered = isRegistered;
+    }
+
+    function display():void{
+        console.log(this.name + " is " + this.age + " years and he is " + this.isRegistered);
+    }
+}   //class Person: ends here
+
+let person1 = new Person("Raj", 25, true);
+console.log(person1);
+person1.display();
+
