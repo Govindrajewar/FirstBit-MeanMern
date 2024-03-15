@@ -1,0 +1,32 @@
+# Overloading: Not allowed in TypeScript.
+
+
+# Overriding: Implementing same method in child class.
+
+- In such cases, when we create the object of child class and call the method, then the method from child class is executed.
+
+- If child class has not overridden the method and we create an object of child class and call the method, then the method from parent class is executed.
+
+
+# Interfaces: is a contract, that class will provide the implementation of the methods which are part of the interface.
+- A class implements an interface.
+
+
+# Modules:
+- We can export/import classes/functions in TypeScript.
+- If we are exporting it from .ts file, then that becomes a module.
+- We can import from this module into another file.
+
+eg.,
+> file1.ts
+
+export class Person{
+
+}
+
+> file2.ts
+import { Person } from ".file1.ts"
+
+class Employee extends Person {
+
+}
