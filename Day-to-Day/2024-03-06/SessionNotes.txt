@@ -1,0 +1,60 @@
+# Object Oriented Programming:
+
+> Class - provides a way to implement encapsulation.
+- Class is a way to implement encapsulation.
+- Object is a instance of Class.
+
+|-----------------------|
+|       Attributes      |----->  Data Members
+|                       |
+|-----------------------|
+|                       |
+|      Behavior         |----->  Member function
+|                       |
+|-----------------------|
+
+> Encapsulation: Binding of the state & Behavior.
+|-------------------------------------------|
+|       attributes       --->    Value      |
+|       name            --->    "Dhoni"     |
+|       rollNo          --->       7        |
+|       city            --->    "ranchi"    |
+|-------------------------------------------|
+
+
+> Inheritance: Reuse of an existing class with IS-A relationship.
+
+syntax:
+        class Person{
+        }
+        class Employee extends Person{
+            // here employee is child class or derived class
+        }
+
+* here Person is Parent/Base/Super class & Employee is child/derived/sub class.
+
+* when we have derived class, we should make sure to call the constructor of the super class.
+
+* The way to call a Parent class constructor is to use the "super" keyboard.
+
+syntax:
+        class Person{
+            constructor(){
+
+            }
+        }
+        class Employee extends Person{
+            constructor(){
+                super(parameter);
+            }
+        }
+
+
+# Access Modifier/Specifier:
+
+- We can apply various access modifiers to properties/methods of a class.
+- This basically controls the access to these properties/methods.
+- There are three types of access modifiers in TypeScript
+    - public    : accessible to everyone.
+    - private   : accessible ONLY inside class.
+    - protected : accessible to class & its derived class.
