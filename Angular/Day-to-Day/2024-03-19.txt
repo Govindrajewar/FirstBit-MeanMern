@@ -1,0 +1,13 @@
+Refer:
+https://angular.io/guide/component-overview
+
+# Create new component:
+- When we Create a new component, Angular will Create an app component by default.
+- Now when we want to generate an new app component, we can use following commands:
+    -> ng generate component <component-name>
+    OR:
+    -> ng g c <component-name> (alias for the above command)
+
+- If we want to use a component inside another component, we need to know which tag should be used.
+- To find this tag, we should check the 'selector' value in the class file of that particular component.
+- Also import the class name in '.ts' file of root component.
