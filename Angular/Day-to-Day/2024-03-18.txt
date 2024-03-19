@@ -1,0 +1,22 @@
+IMP: Remember before sharing any project create zip file without node_modules folder
+
+-> "package.json" contains all dependencies of the project
+
+-> Root component: main component of the our application.
+
+> A component typically have 4 files associated with it.
+    -> .css        -> style of component
+    -> .html       -> structure of component
+    -> .ts         -> class / logic for the component
+    -> .spec.ts    -> Unit Testing for component.
+
+|------|
+|assets|            -> Folder to store images, icons and any other static resources.
+|------|
+
+|----------------|
+|app.component.ts|  -> Application's Main Component contains .html & .css file path.
+|----------------|
+
+templateUrl: '.html file name'
+styleUrl: '.css file name'

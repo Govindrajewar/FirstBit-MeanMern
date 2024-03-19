@@ -37,6 +37,9 @@ Single Page Application(SPA)
 4. cd my-app
 5. ng serve
 
-Command to open App:
+# Command to open App:
 > ng serve --open
 > The --open (or just -o) option automatically opens your browser to http://localhost:4200/
+
+
+# Server Path: localhost:4200
