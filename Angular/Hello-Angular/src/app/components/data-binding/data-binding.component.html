@@ -1,0 +1,19 @@
+<h2>1. Interpolation</h2>
+
+<p>Hello name</p>
+<p>{{playerName}} has jersey no {{jerseyNo}}.</p>
+
+<p>Hello, {{playerName}} as you have played total {{totalMatches}} & scored {{totalRuns}} with average of {{average().toFixed(2)}}</p>
+
+<!-- Using Ternary Operator -->
+<p>He is really a {{ average() > 45 ? 'Good Player' : 'Average player'}}</p>
+
+
+<h2>2. Event Binding</h2>
+
+Player Name: <input (input)="updateName($event)" type="text" placeholder="Enter Player Name"><br><br>
+Total Matches: <input (input)="updateMatches($event)" type="text" placeholder="Enter total matches"><br><br>
+Total Runs: <input (input)="updateRuns($event)" type="text" placeholder="Enter runs scored"><br><br>
+
+<button (click)="display()">Click me!</button>
+
