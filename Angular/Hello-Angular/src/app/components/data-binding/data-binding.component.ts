@@ -36,5 +36,53 @@ export class DataBindingComponent {
   }
 
 
+  // Student Details:
+  studentName:string = "Abhi";
+  studentRollNo:number = 7;
+  marks:number = 0;
+
+  studentDetails(){
+    console.log(`Student Name: ${this.studentName}  Student Roll No: ${this.studentRollNo} and scored total ${this.marks}`)
+  }
+
+  submitMarks(event:any):void{
+    this.marks = Number(event.target.value);
+  }
+
+
+  // Property Binding:
+  cricScoreURL:string = "https://www.cricbuzz.com"
+  siteName:string = "CricBuzz";
+  isChanged:boolean = false;
+
+  changeURL(){
+    if(!this.isChanged){
+      this.cricScoreURL = "https://www.espncricinfo.com";
+      this.siteName = "ESPN";
+    } else{
+      this.cricScoreURL = "https://www.cricbuzz.com"
+      this.siteName = "CricBuzz";
+    }
+    this.isChanged = !this.isChanged;
+
+  }
+
+
+  vehicleImg:string = '../../../assets/car.jpeg'
+  vehiclename:string = 'Mahindra Scorpio'
+  isCar:boolean = true;
+
+  changeVehicle(){
+    if(this.isCar){
+      this.vehicleImg = '../../../assets/bike.webp';
+      this.vehiclename = "TVS Raider 125"
+    } else{
+      this.vehicleImg = '../../../assets/car.jpeg'
+      this.vehiclename = 'Mahindra Scorpio'
+    }
+    this.isCar = !this.isCar;
+  }
+
+
 // DataBindingComponent class ends here:
 }

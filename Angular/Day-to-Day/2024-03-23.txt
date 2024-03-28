@@ -1,0 +1,13 @@
+# Event Binding:
+- To handle events that occur on the HTML page.
+- We write event handlers in out .ts file.
+- We bind the events to the events handlers using the () brackets.
+
+
+# Property Binding:
+- It allows us to assign values to the HTML properties(attributes) based on the properties/expression from our component file (.ts)
+- We can use to bind various html properties like 'src', 'href', 'class'.
+- So any change in the component properties will reflect dynamically on the html properties.
+- Typically we will call "href" as attribute however when the DOM is created the <a> element is part of the DOM as an object, in that case we call "href" as a property.
+- We use [] to bind html properties.
+- Property binding is very useful when the html properties are boolean.

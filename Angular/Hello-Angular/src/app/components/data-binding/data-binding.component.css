@@ -1,1 +1,13 @@
-    
+#whiteboard{
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+    background-color: antiquewhite;
+
+    text-align: center;
+    padding: 10px;
+}
+
+#vehiclename{
+    margin: 5px;
+}

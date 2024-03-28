@@ -1,4 +1,4 @@
-# Data Binding: Data binding is a way to move data between our 'html' and 'ts' file.
+# Data Binding: Data binding is a way to exchange data between our 'html' and 'ts' file.
 
 1. Interpolation            ts    => html              {{ property/method}}
 2. Event Binding            html  => ts                ( event )

@@ -1,19 +1,47 @@
+<hr>
 <h2>1. Interpolation</h2>
-
+<hr>
 <p>Hello name</p>
 <p>{{playerName}} has jersey no {{jerseyNo}}.</p>
 
-<p>Hello, {{playerName}} as you have played total {{totalMatches}} & scored {{totalRuns}} with average of {{average().toFixed(2)}}</p>
+<p>Hello, {{playerName}} as you have played total {{totalMatches}} & scored {{totalRuns}} with average of
+    {{average().toFixed(2)}}</p>
 
 <!-- Using Ternary Operator -->
 <p>He is really a {{ average() > 45 ? 'Good Player' : 'Average player'}}</p>
 
+<p>{{studentName}} is brilliant student & has roll no {{studentRollNo}} and scored total {{marks}} marks.</p>
 
+
+
+<hr><hr>
 <h2>2. Event Binding</h2>
-
+<hr>
 Player Name: <input (input)="updateName($event)" type="text" placeholder="Enter Player Name"><br><br>
 Total Matches: <input (input)="updateMatches($event)" type="text" placeholder="Enter total matches"><br><br>
 Total Runs: <input (input)="updateRuns($event)" type="text" placeholder="Enter runs scored"><br><br>
 
-<button (click)="display()">Click me!</button>
+<button (click)="display()">Click me!</button><br><br>
 
+
+Student Marks: <input (input)="submitMarks($event)" id="stu-mark" type="text" placeholder="Student Marks" >
+
+
+<hr><hr>
+<h2>3. Property Binding</h2>
+<hr>
+
+<!-- Cricbuzz Link -->
+<a [href]="cricScoreURL" target="_blank" id="cricScore">Visit {{siteName}}</a>
+<br><br>
+<button (click)="changeURL()">Change URL</button>
+
+<br><br><br>
+<!-- Swapping images -->
+<div id="whiteboard">
+    <img [src]="vehicleImg" alt="bike" width="75%" height="75%">
+    <div id="vehiclename">{{vehiclename}}</div>
+    <button type="button" (click)="changeVehicle()">Switch</button>
+</div>
+
+<br><br>
